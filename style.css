@@ -249,7 +249,7 @@ button, a, input {
 }
 
 #search-input-container > input {
-  width: 100%;
+  width: 47rem;
   height: 3.25rem;
   background-color: transparent;
   padding: 1rem;  
@@ -437,7 +437,7 @@ button, a, input {
   flex-wrap: wrap;
   justify-content: right;
   gap: 8px;
-
+  margin-left: 7rem;
 }
 .social-button {
   position: relative;
@@ -505,10 +505,10 @@ button, a, input {
 .social-button--mail::after {
   background: #0072c6;
 }
-.social-button--facebook {
+.social-button--whatsapp {
   color: #3b5999;
 }
-.social-button--facebook::after {
+.social-button--whatsapp::after {
   background: #3b5999;
 }
 .social-button--linkedin {
