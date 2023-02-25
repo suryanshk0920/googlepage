@@ -35,7 +35,7 @@ body {
 }
 
 .wave {
-  background: rgb(255 255 255 / 25%);
+  background: rgba(63, 7, 7, 0.25);
   border-radius: 1000% 1000% 0 0;
   position: fixed;
   width: 200%;
@@ -91,7 +91,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(80, 3, 3, 0.15);
 }
 
 * {
@@ -124,7 +124,7 @@ button, a, input {
 }
 
 .fancy-scrollbar::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(66, 3, 3, 0.15);
 }
 
 .no-scrollbar::-webkit-scrollbar {
@@ -134,7 +134,7 @@ button, a, input {
 
 #phone {
   background-color: rgb(var(--theme-background));
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  box-shadow: rgba(78, 4, 4, 0.2) 0px 8px 24px;
   height: 851px;
   width: 393px;  
   margin: 100px auto;
@@ -1137,7 +1137,6 @@ text-align: center;
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-
 
 
 
